@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=375px, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bottos Demo</title>
+    <script src="./bottos-sdk-js.min.js"></script>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div style="margin-top:50px">
+        <button style="width:100px;height:30px;background-color:coral" onClick="createAccount()">创建账户</button>
+        <button style="width:100px;height:30px;background-color:coral" onClick="pushTransaction()">发布联系人</button>
+        <button style="width:100px;height:30px;background-color:bisque" onClick="getTransaction()" >获取联系人</button>
+    </div>
+
+
+    <div style="margin-top:100px">
+        <p>创建账户执行结果</p>
+        <div id="createAccount" style="min-height:150px;background-color:#ccc">
+
+        </div>
+
+        <p>发布联系人执行结果</p>
+        <div id="pushTransaction" style="min-height:150px;background-color:#ccc">
+
+        </div>
+
+        <p>获取联系人执行结果</p>
+        <div id="getTransaction" style="min-height:150px;background-color:#ccc">
+
+        </div>
+    </div>
+
+</body>
+</html>
